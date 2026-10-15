@@ -1,0 +1,11 @@
+[[media]]
+file = "rockbed.json.gz"
+name = "A seam, a haul, a climb"
+
+[[media]]
+file = "surface.png"
+name = "The last outpost"
+
+[[media]]
+file = "deepstone.png"
+name = "Heat below the rockbed"

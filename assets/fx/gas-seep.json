@@ -1,0 +1,77 @@
+{
+  "dimensions": 2,
+  "field": {
+    "width": 256,
+    "height": 256
+  },
+  "durationMs": 2000,
+  "fps": 24,
+  "loop": false,
+  "emitters": [
+    {
+      "name": "primary",
+      "shape": "disc",
+      "position": [
+        128.0,
+        128.0,
+        0.0
+      ],
+      "extent": {
+        "radius": 18.0,
+        "size": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 12,
+        "atMs": 0.0
+      },
+      "lifetimeMs": 1100.0,
+      "lifetimeSpread": 400.0,
+      "speed": 15.0,
+      "speedSpread": 6.0,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "coneAngle": 30.0,
+      "seed": 50,
+      "forces": {},
+      "particle": {
+        "sizeCurve": {
+          "interp": "ease-out",
+          "from": 0.7,
+          "to": 1.4
+        },
+        "opacityCurve": {
+          "interp": "linear",
+          "from": 0.14,
+          "to": 0.0
+        },
+        "colorGradient": [
+          {
+            "color": "#b3d9c7",
+            "at": 0.0
+          },
+          {
+            "color": "#334550",
+            "at": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "forces": {
+    "gravity": -15.0,
+    "drag": 1.0,
+    "turbulence": {
+      "amplitude": 15.0,
+      "scale": 0.04
+    }
+  },
+  "subEmitters": []
+}
